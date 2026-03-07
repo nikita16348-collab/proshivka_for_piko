@@ -21,7 +21,7 @@ int main()
 
     while(1)
     {
-
+        //a
         //анализ данных с ядра 1:
         // if(mouse.dist_l>30.0f)
         // {

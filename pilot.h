@@ -14,3 +14,12 @@
 
 void pilot_init(void);
 void core0_entry(void);
+void set_motor_speed(int left,int right);
+
+//высокоуровневые функции движения
+void move_forward(int speed);
+void move_backward(int speed);
+void turn_left(float angle,int speed);
+void turn_right(float angle,int speed);//короче надо подумать 1 функция с абсолютным углом или 2 с относительным
+void stop(void);
+
